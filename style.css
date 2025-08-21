@@ -193,7 +193,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -354,6 +354,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin: 5px;
 }
 
 .color-contaner {
@@ -389,11 +390,11 @@ article .icon {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 1px solid rgb(53, 53, 53);
   background: white;
   padding: 0.5rem;
-  margin: 2rem auto;
+  margin: 2rem 2rem;
 }
 
 .contact-info-container {
@@ -414,4 +415,15 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 1rem 1rem;
+}
+
+footer p {
+  text-align: center;
 }
